@@ -1,0 +1,13 @@
+databaseChangeLog:
+  - include:
+      file: 2023/changelog-11.xml
+      relativeToChangelogFile: true
+  - include:
+      file: 2023/changelog-12.xml
+      relativeToChangelogFile: true
+  - include:
+      file: 2024/changelog-01.xml
+      relativeToChangelogFile: true
+  - include:
+      file: 2024/changelog-02.xml
+      relativeToChangelogFile: true

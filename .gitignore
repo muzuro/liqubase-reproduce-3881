@@ -1,0 +1,65 @@
+# Mac
+.DS_Store
+
+# Sensitive or high-churn files:
+.idea/uiDesigner.xml
+
+# Modules handled by IDEA
+.idea
+.fleet
+
+# Gradle:
+.gradle
+gradle-wrapper.jar
+gradlew
+gradle.bat
+gradlew.bat
+build/
+out/
+
+# tmp
+user_mobile/android/app/src/main/java/io/
+
+# pg_data
+.pg_data
+
+**/.dart_tool/*
+
+@npm files
+node_modules
+
+#ignore service keys
+cloud/service-keys
+
+#dart pub
+.packages
+pubspec.lock
+
+.history
+
+.vscode
+.classpath
+.project
+.settings
+
+# html drafts
+.html_drafts
+/temp/
+backend/account/src/test/resources/temp/
+
+#bin folders
+backend/account/bin/
+backend/common/bin/
+backend/communication/bin/
+backend/gateway/bin/
+backend/health/bin/
+backend/manufacturing/bin/
+backend/product/bin/
+doc/api_doc_generator/bin/
+
+#Firebase
+.emulator_data/
+
+#
+backend/product/src/test/kotlin/com/qurasense/product/export/scripts/*
+cloud/db/*.json
